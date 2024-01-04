@@ -1,4 +1,4 @@
-﻿using APP_ADM_SIEMENS_VALIQC.Utils;
+﻿using DM_SIEMENS_VALIQC.Utils;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace APP_ADM_SIEMENS_VALIQC.Forms
+namespace DM_SIEMENS_VALIQC.Forms
 {
     public partial class Dashboard : Form
     {
@@ -43,7 +43,7 @@ namespace APP_ADM_SIEMENS_VALIQC.Forms
             btnConfig.BackgroundImageLayout = ImageLayout.Zoom;
             #endregion
 
-            this.Text = $"{InterfaceConfig.nombreEquipo} v{Application.ProductVersion}";
+            this.Text = $"DM_SIEMENS_VALIQC v{Application.ProductVersion}";
         }
 
         private void Dashboard_Load(object sender, EventArgs e)

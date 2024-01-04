@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Configuration;
 
-namespace APP_ADM_SIEMENS_VALIQC.Utils
+namespace DM_SIEMENS_VALIQC.Utils
 {
     public class InterfaceConfig
     {

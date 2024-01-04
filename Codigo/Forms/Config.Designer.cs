@@ -1,4 +1,4 @@
-﻿namespace APP_ADM_SIEMENS_VALIQC.Forms
+﻿namespace DM_SIEMENS_VALIQC.Forms
 {
     partial class Config
     {
@@ -851,7 +851,7 @@
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Image = global::APP_ADM_SIEMENS_VALIQC.Properties.Resources.Imagen;
+            this.pictureBox1.Image = global::DM_SIEMENS_VALIQC.Properties.Resources.Imagen;
             this.pictureBox1.Location = new System.Drawing.Point(0, 216);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox1.Name = "pictureBox1";
