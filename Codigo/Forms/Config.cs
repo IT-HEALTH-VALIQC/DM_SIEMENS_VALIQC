@@ -1,4 +1,4 @@
-﻿using APP_ADM_SIEMENS_VALIQC.Utils;
+﻿using DM_SIEMENS_VALIQC.Utils;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,7 +13,7 @@ using System.Windows.Forms;
 using System.Xml;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
-namespace APP_ADM_SIEMENS_VALIQC.Forms
+namespace DM_SIEMENS_VALIQC.Forms
 {
     public partial class Config : Form
     {

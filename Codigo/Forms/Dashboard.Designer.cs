@@ -1,4 +1,4 @@
-﻿namespace APP_ADM_SIEMENS_VALIQC.Forms
+﻿namespace DM_SIEMENS_VALIQC.Forms
 {
     partial class Dashboard
     {
@@ -78,7 +78,7 @@
             // btnConfig
             // 
             this.btnConfig.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnConfig.BackgroundImage = global::APP_ADM_SIEMENS_VALIQC.Properties.Resources.Config_False;
+            this.btnConfig.BackgroundImage = global::DM_SIEMENS_VALIQC.Properties.Resources.Config_False;
             this.btnConfig.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnConfig.FlatAppearance.BorderSize = 0;
             this.btnConfig.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -136,7 +136,7 @@
             // 
             this.btnResultados.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnResultados.BackColor = System.Drawing.Color.Transparent;
-            this.btnResultados.BackgroundImage = global::APP_ADM_SIEMENS_VALIQC.Properties.Resources.Resul_False;
+            this.btnResultados.BackgroundImage = global::DM_SIEMENS_VALIQC.Properties.Resources.Resul_False;
             this.btnResultados.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnResultados.FlatAppearance.BorderSize = 0;
             this.btnResultados.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;

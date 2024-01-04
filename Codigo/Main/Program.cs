@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using APP_ADM_SIEMENS_VALIQC.Forms;
-using APP_ADM_SIEMENS_VALIQC.Utils;
+using DM_SIEMENS_VALIQC.Forms;
+using DM_SIEMENS_VALIQC.Utils;
 
-namespace APP_ADM_SIEMENS_VALIQC
+namespace DM_SIEMENS_VALIQC
 {
     internal static class Program
     {

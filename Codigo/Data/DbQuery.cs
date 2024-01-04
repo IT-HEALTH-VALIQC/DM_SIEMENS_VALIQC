@@ -6,9 +6,9 @@ using System.Diagnostics.Metrics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using APP_ADM_SIEMENS_VALIQC.Utils;
+using DM_SIEMENS_VALIQC.Utils;
 
-namespace APP_ADM_SIEMENS_VALIQC.Data
+namespace DM_SIEMENS_VALIQC.Data
 {
     public class DbQuery
     {
@@ -52,7 +52,7 @@ namespace APP_ADM_SIEMENS_VALIQC.Data
             string query = $@"SELECT *
                               FROM homologacion
                               WHERE equipo_cod = '{nombreEquipo}'
-                                AND examen_cod_equipo = '{prueba}'";
+                                AND examen_cod = '{prueba}'";
 
             return _context.RunQuery(query, null, CommandType.Text);
         }

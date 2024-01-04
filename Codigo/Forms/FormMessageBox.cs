@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace APP_ADM_SIEMENS_VALIQC.Forms
+namespace DM_SIEMENS_VALIQC.Forms
 {
     public partial class FormMessageBox : Form
     {

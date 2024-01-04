@@ -9,12 +9,12 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using APP_ADM_SIEMENS_VALIQC.Data;
-using APP_ADM_SIEMENS_VALIQC.Properties;
-using APP_ADM_SIEMENS_VALIQC.Utils;
+using DM_SIEMENS_VALIQC.Data;
+using DM_SIEMENS_VALIQC.Properties;
+using DM_SIEMENS_VALIQC.Utils;
 using CustomControls.RJControls;
 
-namespace APP_ADM_SIEMENS_VALIQC.Forms
+namespace DM_SIEMENS_VALIQC.Forms
 {
     public partial class Resultados : Form
     {
@@ -217,7 +217,7 @@ namespace APP_ADM_SIEMENS_VALIQC.Forms
                                                     resultadoQuery = dbQuery.ConsultaNivel(prueba);
                                                     if (resultadoQuery.Tabla.Rows.Count > 0)
                                                     {
-                                                        nivelHomologado = resultadoQuery.Tabla.Rows[0]["examen_cod"].ToString();
+                                                        nivelHomologado = resultadoQuery.Tabla.Rows[0]["examen_cod_equipo"].ToString();
                                                     }
                                                     else
                                                     {
