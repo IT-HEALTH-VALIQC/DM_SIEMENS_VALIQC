@@ -1,4 +1,4 @@
-﻿using APP_ADM_SIEMENS_VALIQC.Utils;
+﻿using DM_SIEMENS_VALIQC.Utils;
 using Npgsql;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace APP_ADM_SIEMENS_VALIQC.Data
+namespace DM_SIEMENS_VALIQC.Data
 {
     public class DbContext
     {

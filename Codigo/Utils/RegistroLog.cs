@@ -1,4 +1,4 @@
-﻿using APP_ADM_SIEMENS_VALIQC.Forms;
+﻿using DM_SIEMENS_VALIQC.Forms;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static APP_ADM_SIEMENS_VALIQC.Forms.Resultados;
+using static DM_SIEMENS_VALIQC.Forms.Resultados;
 
-namespace APP_ADM_SIEMENS_VALIQC.Utils
+namespace DM_SIEMENS_VALIQC.Utils
 {
     class RegistroLog
     {

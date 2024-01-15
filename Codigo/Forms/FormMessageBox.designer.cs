@@ -1,4 +1,4 @@
-﻿namespace APP_ADM_SIEMENS_VALIQC.Forms
+﻿namespace DM_SIEMENS_VALIQC.Forms
 {
     partial class FormMessageBox
     {
@@ -176,7 +176,7 @@
             // pictureBoxIcon
             // 
             this.pictureBoxIcon.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBoxIcon.Image = global::APP_ADM_SIEMENS_VALIQC.Properties.Resources.Esperando;
+            this.pictureBoxIcon.Image = global::DM_SIEMENS_VALIQC.Properties.Resources.Esperando;
             this.pictureBoxIcon.Location = new System.Drawing.Point(12, 12);
             this.pictureBoxIcon.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBoxIcon.Name = "pictureBoxIcon";

@@ -1,4 +1,4 @@
-﻿namespace APP_ADM_SIEMENS_VALIQC.Forms
+﻿namespace DM_SIEMENS_VALIQC.Forms
 {
     partial class Resultados
     {
